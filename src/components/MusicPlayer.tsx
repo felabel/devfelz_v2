@@ -19,7 +19,7 @@ const MusicPlayer = () => {
   };
 
   return (
-    <div className="fixed bottom-10 right-10 z-[100] flex items-center gap-4">
+    <div className="fixed bottom-8 left-10 z-[100] flex items-center gap-4">
       <AnimatePresence>
         {isPlaying && (
           <motion.div 
